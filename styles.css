@@ -1,0 +1,85 @@
+body {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: 2;
+    background-image: url(https://t4.ftcdn.net/jpg/05/64/97/31/360_F_564973106_xO0n1BvNmsFy2Sj2SK2Uy2pzH3hDqeDy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+}
+
+.navbar{
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top:0%;
+    left: 0%;
+    z-index: 100;
+
+}
+
+.navbar ul {
+
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 55px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+
+}
+
+.navbar ul li a :hover{
+    background-color: blanchedalmond;
+    border-radius: 5px;
+
+}
+
+.navbar-line{
+
+margin: 0;
+padding: 0%;
+width: 100%;
+border-top: 2px solid;
+position: fixed;
+
+}
+
+body{
+
+    margin-top: 50px;
+}
+
+
+h1{
+    
+    font-family: Georgia ;
+    font-size: 55PX;
+    text-align: center;
+
+}
+
+P{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    color: black;
+
+}
+
+ul {
+    text-align: center;
+}
