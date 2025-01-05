@@ -1,23 +1,32 @@
 body {
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: medium;
     line-height: 2;
     background-image: url(https://t4.ftcdn.net/jpg/05/64/97/31/360_F_564973106_xO0n1BvNmsFy2Sj2SK2Uy2pzH3hDqeDy.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100vh;
     padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar{
-    padding: 10px 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPbG10QQUGsAYjzFMU4jkpsqZjakG7VZiqU7gjuW4edGbgdbHjVOQprL1pumU0skyWoh4&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    
     position: fixed;
+    top: 0;
     width: 100%;
-    top:0%;
-    left: 0%;
-    z-index: 100;
+    z-index: 1000;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+
 
 }
 
@@ -25,6 +34,8 @@ body {
 
     list-style-type: none;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar ul li {
@@ -48,38 +59,86 @@ body {
 
 }
 
-.navbar-line{
-
-margin: 0;
-padding: 0%;
-width: 100%;
-border-top: 2px solid;
-position: fixed;
-
-}
 
 body{
 
     margin-top: 50px;
+    padding-top: 100px;
 }
 
 
 h1{
     
-    font-family: Georgia ;
+    
     font-size: 55PX;
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 75px;
 
 }
 
 P{
 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    margin-bottom: 60px;
     color: black;
-
+    
 }
 
 ul {
     text-align: center;
+    text-decoration: none;
+    padding-bottom: 500px;
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    margin-top: 3em;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPbG10QQUGsAYjzFMU4jkpsqZjakG7VZiqU7gjuW4edGbgdbHjVOQprL1pumU0skyWoh4&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+
+}
+
+footer .footer-content {
+    font-size: 1em;
+    margin-bottom: 0;
+    
+}
+
+footer .sign-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+footer .sign-form input{
+    padding: 0.8em;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    width: 60%;
+    max-width: 300px;
+    
+}
+footer .sign-form button{
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    border: none;
+
+
+}
+
+footer .footer-links ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 1em 0;
+
+}
+footer .footer-links li{
+    display: inline;
+    margin: 0 1em;
 }
